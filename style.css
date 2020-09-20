@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(217, 226, 165);
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#foto {
+    background-image: linear-gradient(to bottom, rgb(212, 212, 0) 0%, green 90%);
+}
+
+#santinho {
+    height: 600px;
+    flex: 0 0 400px;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    
+    background-color: rgb(29, 122, 29);
+    
+    position: relative;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 blue;
+}
+
+#cargo {
+    font-size: 40px;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    text-shadow: 3px 3px 0 green;
+    
+    position: absolute;
+    top: 110px;
+    transform: rotate(-35deg);
+}
+
+#slogan {
+    font-size: 25px;
+    word-spacing: 0.2em;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#final {
+    flex: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: blue;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 3px 0 green;
+}
+
+#numero {}
+
+#partido {}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidato Ideal</title>
+    <style>
+
+    body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightskyblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+#imagem {
+    background-image: linear-gradient(to bottom, rgb(212, 212, 0) 0%, green 90%);
+}
+
+#candidato {
+    height: 600px;
+    flex: 0 0 400px;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    
+    background-color:blue;
+    
+    position: relative;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 0 rgb(29, 0, 133);
+}
+
+
+#frase {
+    font-size: 25px;
+    word-spacing: 0.2em;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rodapé {
+    flex: 1;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(0, 191, 255);
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 3px 0 rgb(29, 0, 133);
+}
+
+
+    </style>
+  
+</head>
+<body>
+    <div id="candidato">
+        <h1>Márcio Cabeça e Rafael Redó</h1>
+        <div id="imagem">
+            <img src="foto.jpg" alt="">
+        </div>
+        <div id="frase">O melhor para Mongaguá!</div>
+        <div id="rodapé">
+            <div id="numero">10</div>
+            <div id="partidos">PSDB/DEM</div>
+        </div>
+    </div>
+</body>
+</html>
